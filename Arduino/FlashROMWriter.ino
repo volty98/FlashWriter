@@ -226,7 +226,7 @@ void setup() {
   digitalWrite(GND, LOW);
   digitalWrite(VCC, HIGH);
   
-  Serial.begin(19200);
+  Serial.begin(115200);//Serial.begin(19200);
 
   /* initialization finished */
 
